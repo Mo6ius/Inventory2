@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Layout for a single list item in the list of veggies inventory -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="@dimen/activity_margin">
+
+    <!-- Layout for the name of a single veggie in the list of veggies inventory -->
+    <TextView
+        android:id="@+id/name"
+        style="@style/VeggieNameStyle" />
+
+    <LinearLayout style="@style/HorizontalLayoutStyle">
+
+        <!-- Layout for the price of a single veggie in the list of veggies inventory -->
+        <TextView
+            android:id="@+id/price_of_veggie"
+            style="@style/PriceStyle"
+            android:text="@string/price_of_veggie" />
+
+        <TextView
+            android:id="@+id/price"
+            style="@style/PriceStyle" />
+
+    </LinearLayout>
+
+    <LinearLayout style="@style/HorizontalLayoutStyle">
+
+        <!-- Layout for the quantity of a single veggie in the list of veggies inventory -->
+        <TextView
+            android:id="@+id/quantity_of_veggie"
+            style="@style/QuantityStyle"
+            android:text="@string/quantity_of_veggie" />
+
+        <TextView
+            android:id="@+id/quantity"
+            style="@style/QuantityStyle" />
+
+    </LinearLayout>
+
+    <!-- Layout for the "Sell 1 Unit" button of a single veggie in the list of veggies inventory -->
+    <Button
+        android:id="@+id/sale_button"
+        style="@style/SaleButton"
+        android:text="@string/sale_button" />
+
+</LinearLayout>

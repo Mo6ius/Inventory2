@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/activity_margin"
+    tools:context=".EditorActivity">
+
+    <!-- Product category -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <!-- Label -->
+        <TextView
+            style="@style/CategoryStyle"
+            android:text="@string/category_product" />
+
+        <!-- Input fields -->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:orientation="vertical"
+            android:paddingLeft="4dp">
+
+            <!-- Name field -->
+            <EditText
+                android:id="@+id/edit_veggie_name"
+                style="@style/EditorFieldStyle"
+                android:hint="@string/hint_veggie_name"
+                android:inputType="textCapWords" />
+
+            <!-- Price field -->
+            <EditText
+                android:id="@+id/edit_veggie_price"
+                style="@style/EditorFieldStyle"
+                android:hint="@string/hint_veggie_price"
+                android:inputType="number" />
+
+                <!-- Decrease quantity -->
+                <Button
+                    android:id="@+id/action_decrease_quantity"
+                    style="@style/QuantityButton"
+                    android:text="@string/action_decrease_quantity" />
+
+                <!-- Quantity field -->
+                <EditText
+                    android:id="@+id/edit_veggie_quantity"
+                    style="@style/EditorFieldStyle"
+                    android:hint="@string/hint_veggie_quantity"
+                    android:inputType="number" />
+
+                <!-- Increase quantity -->
+                <Button
+                    android:id="@+id/action_increase_quantity"
+                    style="@style/QuantityButton"
+                    android:text="@string/action_increase_quantity" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+    <!-- Supplier category -->
+    <LinearLayout style="@style/HorizontalLayoutSupplierStyle">
+
+        <!-- Label -->
+        <TextView
+            style="@style/CategoryStyle"
+            android:text="@string/category_supplier" />
+
+        <!-- Input fields -->
+        <LinearLayout style="@style/InputFieldStyle">
+
+            <!-- Supplier's name field -->
+            <EditText
+                android:id="@+id/edit_supplier_name"
+                style="@style/EditorFieldStyle"
+                android:hint="@string/hint_supplier_name"
+                android:inputType="textCapWords" />
+
+            <!-- Supplier's phone field -->
+            <EditText
+                android:id="@+id/edit_supplier_phone"
+                style="@style/EditorFieldStyle"
+                android:hint="@string/hint_supplier_phone"
+                android:inputType="textCapWords" />
+
+            <!-- Call supplier field -->
+            <Button
+                android:id="@+id/action_call_supplier"
+                style="@style/PhoneButton"
+                android:text="@string/action_call_supplier" />
+
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

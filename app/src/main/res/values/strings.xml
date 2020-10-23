@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <!-- Name for the application [CHAR LIMIT=12] -->
+    <string name="app_name">Inventory App Stage 2</string>
+
+    <!-- Label for overflow menu option that inserts fake veggie data into the app [CHAR LIMIT=20] -->
+    <string name="action_insert_dummy_data">Insert Dummy Data</string>
+
+    <!-- Label for overflow menu option that deletes all veggie data in the app [CHAR LIMIT=20] -->
+    <string name="action_delete_all_entries">Delete All Vegetables</string>
+
+    <!-- Title text for the empty view, which describes an empty shelf image [CHAR LIMIT=50] -->
+    <string name="empty_view_title_text">Let\'s add something here!</string>
+
+    <!-- Subtitle text for the empty view that prompts the user to add a veggie [CHAR LIMIT=50] -->
+    <string name="empty_view_subtitle_text">Get started by adding a vegetable</string>
+
+    <!-- Title for the activity to add a new veggie [CHAR LIMIT=20] -->
+    <string name="editor_activity_title_new_veggie">Add A Vegetable</string>
+
+    <!-- Title for the activity to edit an existing veggie [CHAR LIMIT=20] -->
+    <string name="editor_activity_title_edit_veggie">Edit Vegetable</string>
+
+    <!-- Label for editor menu option to increase the quantity [CHAR LIMIT=20] -->
+    <string name="action_increase_quantity">+</string>
+
+    <!-- Label for editor menu option to decrease the quantity [CHAR LIMIT=20] -->
+    <string name="action_decrease_quantity">-</string>
+
+    <!-- Label for editor menu option to call the supplier [CHAR LIMIT=20] -->
+    <string name="action_call_supplier">Call Supplier</string>
+
+    <!-- Label for editor menu option to save veggie and leave editor [CHAR LIMIT=20] -->
+    <string name="action_save">Save</string>
+
+    <!-- Label for editor overflow menu option that deletes the current veggie [CHAR LIMIT=20] -->
+    <string name="action_delete">Delete</string>
+
+    <!-- Toast message in editor when new veggie has been successfully inserted [CHAR LIMIT=NONE] -->
+    <string name="editor_insert_veggie_successful">Vegetable saved</string>
+
+    <!-- Toast message in editor when new veggie has failed to be inserted [CHAR LIMIT=NONE] -->
+    <string name="editor_insert_veggie_failed">Error with saving vegetable</string>
+
+    <!-- Toast message in editor when current veggie was successfully updated [CHAR LIMIT=NONE] -->
+    <string name="editor_update_veggie_successful">Vegetable updated</string>
+
+    <!-- Toast message in editor when current veggie has failed to be updated [CHAR LIMIT=NONE] -->
+    <string name="editor_update_veggie_failed">Error with updating vegetable</string>
+
+    <!-- Dialog message when user is leaving editor but hasn't saved changes [CHAR LIMIT=NONE] -->
+    <string name="unsaved_changes_dialog_msg">Discard your changes and quit editing?</string>
+
+    <!-- Dialog button text for the option to discard a user's changes [CHAR LIMIT=20] -->
+    <string name="discard">Discard</string>
+
+    <!-- Dialog button text for the option to keep editing the current vegetable [CHAR LIMIT=20] -->
+    <string name="keep_editing">Keep Editing</string>
+
+    <!-- Toast message in editor when current vegetable was successfully deleted [CHAR LIMIT=NONE] -->
+    <string name="editor_delete_veggie_successful">Vegetable deleted</string>
+
+    <!-- Toast message in editor when current vegetable has failed to be deleted [CHAR LIMIT=NONE] -->
+    <string name="editor_delete_veggie_failed">Error with deleting vegetable</string>
+
+    <!-- Dialog message to ask the user to confirm deleting the current vegetable [CHAR LIMIT=NONE] -->
+    <string name="delete_dialog_msg">Delete this vegetable?</string>
+
+    <!-- Dialog button text for the option to confirm deleting the current vegetable [CHAR LIMIT=20] -->
+    <string name="delete">Delete</string>
+
+    <!-- Dialog button text for the option to cancel deletion of the current vegetable [CHAR LIMIT=20] -->
+    <string name="cancel">Cancel</string>
+
+    <!-- Label for overview category of attributes in the editor [CHAR LIMIT=30] -->
+    <string name="category_overview">Overview</string>
+
+    <!-- Label for product category of attributes in the editor [CHAR LIMIT=30] -->
+    <string name="category_product">Product</string>
+
+    <!-- Label for supplier category of attributes in the editor [CHAR LIMIT=30] -->
+    <string name="category_supplier">Supplier</string>
+
+    <!-- Text hint for name field in the editor [CHAR LIMIT=30] -->
+    <string name="hint_veggie_name">Name</string>
+
+    <!-- Text hint for price field in the editor [CHAR LIMIT=30] -->
+    <string name="hint_veggie_price">Price</string>
+
+    <!-- Text hint for quantity field in the editor [CHAR LIMIT=30] -->
+    <string name="hint_veggie_quantity">Quantity Available</string>
+
+    <!-- Text hint for supplier field in the editor [CHAR LIMIT=5] -->
+    <string name="hint_supplier_name">Supplier</string>
+
+    <!-- Text hint for supplier's phone field in the editor [CHAR LIMIT=20] -->
+    <string name="hint_supplier_phone">Phone</string>
+
+    <!-- Text for the Sale button [CHAR LIMIT=20] -->
+    <string name="sale_button">Sell 1 Unit</string>
+
+    <!-- Toast message for required name field [CHAR LIMIT=20] -->
+    <string name="required_name">Vegetable\'s name is required. Please try again.</string>
+
+    <!-- Toast message for required price field [CHAR LIMIT=20] -->
+    <string name="required_price">Price is required. Please try again.</string>
+
+    <!-- Toast message for required quantity field [CHAR LIMIT=20] -->
+    <string name="required_quantity">Quantity is required. Please try again.</string>
+
+    <!-- Toast message for required supplier's name field [CHAR LIMIT=20] -->
+    <string name="required_supplier">Supplier\'s name is required. Please try again.</string>
+
+    <!-- Toast message for required supplier's phone number field [CHAR LIMIT=20] -->
+    <string name="required_supplier_phone">Supplier\'s phone number is required. Please try again.</string>
+
+    <!--  Toast message when the price is a negative number [CHAR LIMIT=20] -->
+    <string name="negative_price">Price cannot be a negative number!</string>
+
+    <!-- Toast message when the quantity is a negative number [CHAR LIMIT=20] -->
+    <string name="negative_quantity">Quantity cannot be a negative number!</string>
+
+    <!-- Toast message when item is out-of-stock [CHAR LIMIT=20] -->
+    <string name="out_of_stock">Out of stock!</string>
+
+    <!-- Text for price of veggie. [CHAR LIMIT=20] -->
+    <string name="price_of_veggie">Price: $</string>
+
+    <!-- Text for quantity of veggie. [CHAR LIMIT=20] -->
+    <string name="quantity_of_veggie">Available Quantity: </string>
+
+</resources>
